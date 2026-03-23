@@ -15,9 +15,9 @@
 
 - Shots on target is the strongest predictor of goal difference — home (β = +0.25) and away (β = −0.27)
 - The model explains 30.8% of variance in goal difference (R² = 0.308)
-- Home win rate fell from 46.2% to 39.6% during COVID (p = 0.005)
-- Average home goals dropped from 1.543 to 1.390 (p = 0.016)
-- Cohen's d = 0.13 — the effect is real but small
+- Home win rate fell from 46.2% to 38.9% during COVID (p = 0.002)
+- Average home goals dropped from 1.543 to 1.381 (p = 0.012)
+- Cohen's d = 0.15 — the effect is real but small
 - The COVID dummy is not significant in the OLS model (p = 0.069)
 
 ---
@@ -45,8 +45,7 @@ figures/                  all charts
 
 - No possession or xG data — shots on target used as proxy
 - GoalDiff is discrete — OLS is an approximation
-- COVID flag is date-based (2020-06-13 to 2021-05-23), 472 matches
-
+- COVID flag is date-based (2020-06-17 to 2021-05-17), covering 452 matches. Some of the final matches in May 2021 had limited crowds (up to 2,000 fans in pilot events), so not all 452 were played in completely empty stadiums.
 ---
 
 ## Tools
