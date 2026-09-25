@@ -1,7 +1,5 @@
 # Premier League Home Advantage Analysis (2000–2025)
 
----
-
 ## Questions
 
 1. Which in-game statistics best predict match outcomes in the Premier League?
