@@ -11,7 +11,6 @@
 - The model explains 30.8% of variance in goal difference (R² = 0.308)
 - Home win rate fell from 46.2% to 38.9% during COVID (p = 0.002)
 - Average home goals dropped from 1.543 to 1.381 (p = 0.012)
-- Cohen's d = 0.15 — the effect is real but small
 - The COVID dummy is not significant in the OLS model (p = 0.069)
 
 ## Data
@@ -31,6 +30,6 @@ figures/                  all charts
 
 ## Limitations
 
-- No possession or xG data — shots on target used as proxy
+- No possession or xG data - shots on target used as proxy
 - GoalDiff is discrete — OLS is an approximation
 - COVID flag is date-based (2020-06-17 to 2021-05-17), covering 452 matches. Some of the final matches in May 2021 had limited crowds (up to 2,000 fans in pilot events), so not all 452 were played in completely empty stadiums.
