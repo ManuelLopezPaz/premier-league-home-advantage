@@ -1,7 +1,5 @@
 # Premier League Home Advantage Analysis (2000–2025)
 
-**ManuelLopezPaz**
-
 ---
 
 ## Questions
