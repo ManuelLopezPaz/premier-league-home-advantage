@@ -7,8 +7,6 @@
 1. Which in-game statistics best predict match outcomes in the Premier League?
 2. Did home advantage decline during COVID-19, when matches were played without fans?
 
----
-
 ## Main Findings
 
 - Shots on target is the strongest predictor of goal difference — home (β = +0.25) and away (β = −0.27)
@@ -18,15 +16,11 @@
 - Cohen's d = 0.15 — the effect is real but small
 - The COVID dummy is not significant in the OLS model (p = 0.069)
 
----
-
 ## Data
 
 - Source: football-data.co.uk
 - 9,380 Premier League matches across 25 seasons (2000/01 to 2024/25)
 - Variables: results, shots, corners, fouls, cards
-
----
 
 ## Files
 ```
@@ -37,15 +31,8 @@ epl_cleaned.csv           cleaned dataset
 figures/                  all charts
 ```
 
----
-
 ## Limitations
 
 - No possession or xG data — shots on target used as proxy
 - GoalDiff is discrete — OLS is an approximation
 - COVID flag is date-based (2020-06-17 to 2021-05-17), covering 452 matches. Some of the final matches in May 2021 had limited crowds (up to 2,000 fans in pilot events), so not all 452 were played in completely empty stadiums.
----
-
-## Tools
-
-Python · pandas · numpy · matplotlib · seaborn · statsmodels · scipy
