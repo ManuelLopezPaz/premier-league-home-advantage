@@ -2,8 +2,6 @@
 
 **ManuelLopezPaz**
 
-Write-up available at: [www.manuellopezpaz.com/premier-league-home-advantage](https://www.manuellopezpaz.com/writeups/premier-league-home-advantage.html)
-
 ---
 
 ## Questions
